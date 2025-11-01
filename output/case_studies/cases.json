@@ -1,0 +1,34 @@
+[
+  {
+    "image": "outputs/ham_failure_analysis_20251101_162124/case_studies/case_1.png",
+    "y_true": "mel",
+    "y_pred": "nv",
+    "confidence": 0.997478187084198,
+    "y_prob": {
+      "akiec": 0.000321997853461653,
+      "bcc": 0.0003660448419395834,
+      "bkl": 0.00048245632206089795,
+      "df": 0.00036378696677275,
+      "mel": 0.0008389836875721812,
+      "nv": 0.997478187084198,
+      "vasc": 0.00014863285468891263
+    },
+    "diagnosis": "Salient region mislocalized; consider temperature scaling + selective prediction."
+  },
+  {
+    "image": "outputs/ham_failure_analysis_20251101_162124/case_studies/case_2.png",
+    "y_true": "df",
+    "y_pred": "nv",
+    "confidence": 0.9969003200531006,
+    "y_prob": {
+      "akiec": 0.00019684690050780773,
+      "bcc": 0.00011720372276613489,
+      "bkl": 0.00021391364862211049,
+      "df": 0.0013816659338772297,
+      "mel": 0.001035800902172923,
+      "nv": 0.9969003200531006,
+      "vasc": 0.00015430987696163356
+    },
+    "diagnosis": "Contrast/scale-induced error; consider domain-adaptive preprocessing."
+  }
+]
